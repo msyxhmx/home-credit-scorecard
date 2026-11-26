@@ -3,7 +3,7 @@
 Plan for roughly 8 to 10 hours a week. Each week ends with something committed to GitHub, so the repo shows steady progress even before it is finished.
 
 ## Week 1. Data foundation and SQL features
-- [ ] Download the data, run `load_raw.py` and check that the row counts match Kaggle
+- [x] Download the data, run `load_raw.py` and check that the row counts match Kaggle
 - [ ] Read `HomeCredit_columns_description.csv` and note down 10 columns you think will matter, before looking at any results
 - [ ] Run `build_features.py`, then read every SQL file and make sure you can explain each feature
 - [ ] Work through `01_data_overview.ipynb` (target rate, missing values, data anomalies, first look at risk drivers)
