@@ -1,0 +1,26 @@
+# Data (too large and covered by Kaggle's terms; never commit)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.zip
+*.duckdb
+*.duckdb.wal
+*.parquet
+
+# Environments
+.venv/
+venv/
+.env
+kaggle.json
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
